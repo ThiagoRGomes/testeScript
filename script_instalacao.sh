@@ -77,7 +77,7 @@ sleep 3
 		echo "      "
             echo "Você possui o GIT mas precisamos instalar nossa aplicação, aguarde um instante"
             sleep 3
-            git clone https://github.com/CaioAraruna/executaveis.git
+            git clone https://github.com/ThiagoRGomes/testeJar.git
         fi
     else
 	echo "        "
@@ -86,7 +86,7 @@ sleep 3
         if [ "$get" = "S" ] || [ "$get" = "s" ]; 
 then
             sudo apt install git
-            git clone https://github.com/CaioAraruna/executaveis.git
+            git clone https://github.com/ThiagoRGomes/testeJar.git
 		echo "       "
             echo "Instalação concluída com sucesso"
             sleep 3
